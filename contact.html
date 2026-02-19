@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact Us | ADAA PARISAR</title>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+<header>
+  <h1>Contact Us</h1>
+</header>
+
+<div class="container">
+
+  <p>
+    Get in touch with us for Facility Management, Technical Services,
+    Events, or Salon Management solutions.
+  </p>
+
+  <form name="contact" method="POST" data-netlify="true">
+    <input type="hidden" name="form-name" value="contact">
+
+    <p>
+      <label>Name<br>
+      <input type="text" name="name" required></label>
+    </p>
+
+    <p>
+      <label>Email<br>
+      <input type="email" name="email" required></label>
+    </p>
+
+    <p>
+      <label>Phone<br>
+      <input type="text" name="phone"></label>
+    </p>
+
+    <p>
+      <label>Service Required<br>
+      <select name="service">
+        <option>Facility Management</option>
+        <option>Technical Services</option>
+        <option>Security & Staffing</option>
+        <option>Events & Space Planning</option>
+        <option>Salon Management</option>
+      </select>
+      </label>
+    </p>
+
+    <p>
+      <label>Message<br>
+      <textarea name="message"></textarea></label>
+    </p>
+
+    <p>
+      <button type="submit">Submit Inquiry</button>
+    </p>
+  </form>
+
+</div>
+
+<footer>
+  © ADAA PARISAR – Contact
+</footer>
+
+</body>
+</html>
